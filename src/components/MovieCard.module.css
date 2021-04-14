@@ -3,6 +3,9 @@
     font-size: 1.5rem;
     text-align: center;
 }
+.movieCard:hover {
+    opacity: .7;
+}
 .movieImage {
     border-radius: 10px;
     background-color: azure;
@@ -14,7 +17,7 @@
     padding: 40px;
     justify-content: center;
 }
-@media (max-width: 560px) {
+@media (max-width: 500px) {
     .moviesGrid {
         grid-template-columns: 100%;
     }
